@@ -6,4 +6,6 @@ resource "aws_instance" "MyFirstInstance" {
   tags = {
     Name = "demoinstance-${count.index}"
   }
+
+  security_groups = "${var.Security_Group}"
 }
