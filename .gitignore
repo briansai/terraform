@@ -3,3 +3,7 @@
 *.info
 *.tfstate.backup
 *.out
+*.tfvars
+
+levelup_key
+levelup_key.pub
