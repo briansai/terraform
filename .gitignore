@@ -4,6 +4,7 @@
 *.tfstate.backup
 *.out
 *.tfvars
+*.txt
 
 levelup_key
 levelup_key.pub
